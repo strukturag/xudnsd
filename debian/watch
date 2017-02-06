@@ -1,0 +1,3 @@
+version=2
+opts=filenamemangle=s|.+\/v?(\d+\.\d+\.\d+)\.tar\.gz|xudnsd-$1\.tar\.gz| \
+  https://github.com/strukturag/xudnsd/releases .*/v?(\d+\.\d+\.\d+)\.tar\.gz
